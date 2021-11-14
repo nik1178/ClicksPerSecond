@@ -10,7 +10,7 @@ public class MyFrame extends JFrame implements MouseListener{
         this.addMouseListener(this);
 
         this.setSize(800,800);
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         this.setResizable(true);
         this.setLocationRelativeTo(null);
         this.setVisible(true);
